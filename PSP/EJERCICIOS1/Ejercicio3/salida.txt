@@ -1,0 +1,14 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 2A04-4D5A
+
+ Directorio de C:\Users\8FDAM08\Desktop\EjerciciosKEKW\EjerciciosDAM3\PSP\EJERCICIOS1\Ejercicio3
+
+14/09/2022  21:15    <DIR>          .
+14/09/2022  21:05    <DIR>          ..
+14/09/2022  21:15    <DIR>          .idea
+14/09/2022  20:41               433 Ejercicio3.iml
+14/09/2022  21:02    <DIR>          out
+14/09/2022  21:15                 0 salida.txt
+14/09/2022  21:15    <DIR>          src
+               2 archivos            433 bytes
+               5 dirs  226.672.275.456 bytes libres
