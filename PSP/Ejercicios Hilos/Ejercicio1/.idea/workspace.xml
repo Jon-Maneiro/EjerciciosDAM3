@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b69f183c-7ce7-42b0-8c22-1265c378eaa9" name="Changes" comment="" />
+    <list default="true" id="201aad1d-19eb-4866-b167-093fd18228aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ErY8Qnm99uykVPcWV5w9lFHZuZ" />
+  <component name="ProjectId" id="2F5SVqsFeo1EThLe5VLL7wiboIN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b69f183c-7ce7-42b0-8c22-1265c378eaa9" name="Changes" comment="" />
-      <created>1663355011775</created>
+      <changelist id="201aad1d-19eb-4866-b167-093fd18228aa" name="Changes" comment="" />
+      <created>1663780480285</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663355011775</updated>
-      <workItem from="1663355012921" duration="903000" />
-      <workItem from="1663777992825" duration="623000" />
+      <updated>1663780480285</updated>
+      <workItem from="1663780481660" duration="2254000" />
     </task>
     <servers />
   </component>
