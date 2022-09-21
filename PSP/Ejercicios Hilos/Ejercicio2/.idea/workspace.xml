@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="201aad1d-19eb-4866-b167-093fd18228aa" name="Changes" comment="" />
+    <list default="true" id="af9dbca7-d739-4ff2-b7a7-1367eb5a6bdc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -13,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2F5SVqsFeo1EThLe5VLL7wiboIN" />
+  <component name="ProjectId" id="2F5YwC6zNDxhKI5Goa4GyMn8R1G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,16 +33,21 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\8FDAM08\Desktop\EjerciciosKEKW\EjerciciosDAM3\PSP\Ejercicios Hilos\Ejercicio2\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="201aad1d-19eb-4866-b167-093fd18228aa" name="Changes" comment="" />
-      <created>1663780480285</created>
+      <changelist id="af9dbca7-d739-4ff2-b7a7-1367eb5a6bdc" name="Changes" comment="" />
+      <created>1663783648562</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663780480285</updated>
-      <workItem from="1663780481660" duration="3037000" />
-      <workItem from="1663784990089" duration="267000" />
+      <updated>1663783648562</updated>
+      <workItem from="1663783649756" duration="1209000" />
+      <workItem from="1663785278466" duration="595000" />
     </task>
     <servers />
   </component>
