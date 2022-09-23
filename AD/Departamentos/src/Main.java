@@ -25,8 +25,7 @@ public class Main {
         FileInputStream filein = new FileInputStream(fichero);
 // conecta el flujo de bytes al flujo de datos
         ObjectInputStream dataIS = new ObjectInputStream(filein);
-        System.out.println("LISTADO DE DEPARTAMENTOS:");
-        System.out.println("=======================================================");
+        System.out.println("departamentos:");
         try {
             while (true) { // lectura del fichero
                 dep = (Departamentos) dataIS.readObject();
@@ -36,10 +35,10 @@ public class Main {
         } catch (Exception e) {
 //Se produce EOFException al finalizar la lectura
             if(e.toString()== "java.io.EOFException")
-                System.err.println("Final de Lectura...");
+                System.err.println("Se acabo");
             else System.err.println("Error al leer fichero: "+e.toString());
         }
-        System.out.println("=======================================================");
+
         dataIS.close(); // cerrar stream de entrada
 }
 }

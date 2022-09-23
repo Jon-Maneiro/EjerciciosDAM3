@@ -12,21 +12,27 @@ class Departamentos implements Serializable {
         this.nombre = null;
     }
     public String getNombre() {
+
         return nombre;
     }
     public void setNombre(String nombre) {
+
         this.nombre = nombre;
     }
     public String getLoc() {
+
         return loc;
     }
     public void setLoc(String loc) {
+
         this.loc = loc;
     }
     public int getDep() {
+
         return dep;
     }
     public void setDep(int dep) {
+
         this.dep = dep;
     }
 }
