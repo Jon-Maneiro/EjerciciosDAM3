@@ -8,9 +8,14 @@ public class Hilo extends Thread{
 
     @Override
     public void run(){
-        for(int i= 0; i<10;i++){
-            contador.incrementar();
+        if(hilo.getName() == "resta"){
+            for (int i = 0; i < 10; i++) {
+                contador.disminuir();
+            }
+        }else {
+            for (int i = 0; i < 10; i++) {
+                contador.incrementar();
+            }
         }
-
     }
 }
