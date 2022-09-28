@@ -4,7 +4,7 @@ public class Caja {
 
     static Semaphore semaforo = new Semaphore(1);
     static int juguetes = 5;
-
+    static int kekw = 0;
     static int xd = 100;
 
     public void sacarJuguete() throws InterruptedException {
@@ -21,6 +21,8 @@ public class Caja {
 
     public void llenarJuguetes() {
         Caja.juguetes = 5;
+        kekw = kekw + 5;
+        System.out.println("Muy bien mis niños, ya hay " + kekw + "juguetes en la pira, la ofrenda crece por momentos!!!");
     }
 
     public Semaphore getSemaforo() throws InterruptedException {
