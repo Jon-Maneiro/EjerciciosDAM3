@@ -2,7 +2,7 @@ import java.util.concurrent.Semaphore;
 
 public class Caja {
 
-    static Semaphore semaforo = new Semaphore(5);
+    static Semaphore semaforo = new Semaphore(1);
     static int juguetes = 5;
 
     static int xd = 100;
@@ -12,14 +12,15 @@ public class Caja {
         if(juguetes > 0) {
             juguetes--;
             xd--;
-            System.out.println("Se ha sacado un juguete, quedan " + juguetes);
+            System.out.println("Se ha sacado un juguete");
         }else{
             System.out.println("No quedan juguetes, sadge");
+            semaforo.release(5);
         }
     }
 
     public void llenarJuguetes() {
-        Caja.juguetes = 10;
+        Caja.juguetes = 5;
     }
 
     public Semaphore getSemaforo() throws InterruptedException {

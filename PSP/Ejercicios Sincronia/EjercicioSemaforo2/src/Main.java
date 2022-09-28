@@ -13,6 +13,8 @@ public class Main {
 
         Profesor p1 = new Profesor();
 
+        p1.setPriority(10);
+
         n1.start();
         n2.start();
         n3.start();

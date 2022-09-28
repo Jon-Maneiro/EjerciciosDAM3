@@ -8,15 +8,18 @@ public class Profesor extends Thread{
         boolean eee = true;
         while(eee){
 
-                try {
-                    caja.getSemaforo().acquire(5);
-                    caja.llenarJuguetes();
-                    System.out.println("Se ha llenado la caja");
-                    eee = false;
-                    caja.getSemaforo().release(5);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
+                    try {
+                        caja.getSemaforo().acquire();
+                        if(caja.getJuguetes() == 0) {
+                            caja.llenarJuguetes();
+                            System.out.println("Se ha llenado la caja");
+                            //eee = false;
+                        }
+                        caja.getSemaforo().release();
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+
             }
 
     }
