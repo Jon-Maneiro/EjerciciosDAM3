@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5738fcda-bd63-4b05-97de-cc5ce49c338e" name="Changes" comment="" />
+    <list default="true" id="ac4b6bd3-b9c4-4b1d-b116-92926be2927b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FPJMgZmBeyLT6kjA5nh6TWkjJp" />
+  <component name="ProjectId" id="2FS0jOwgi99XnTGrtBWy45RREXT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,20 +23,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/8FDAM08/Desktop/EjerciciosKEKW/EjerciciosDAM3/AD/LeerElementoAleatorio"
+    "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5738fcda-bd63-4b05-97de-cc5ce49c338e" name="Changes" comment="" />
-      <created>1664387741814</created>
+      <changelist id="ac4b6bd3-b9c4-4b1d-b116-92926be2927b" name="Changes" comment="" />
+      <created>1664470312144</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664387741814</updated>
-      <workItem from="1664387742973" duration="2089000" />
-      <workItem from="1664469211230" duration="840000" />
+      <updated>1664470312144</updated>
+      <workItem from="1664470314370" duration="3095000" />
     </task>
     <servers />
   </component>

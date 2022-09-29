@@ -29,7 +29,7 @@ public class Main {
         long longitud = fichero.length();
         //el elemento a leer
         int elementoALeer = 3;
-        //La posicion de lectura es 32*(id-1);
+        //La posicion de lectura es 32*(id-1)?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿;
         long posicionLectura =28 * (elementoALeer - 1);
         InputStream is = Channels.newInputStream(fichero.getChannel());
         byte[] buffer = new byte[20];
