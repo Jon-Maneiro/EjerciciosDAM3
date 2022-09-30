@@ -34,7 +34,7 @@ public class Main {
 
         for (int x = 0; x < 5; x++) {
             fichero.writeInt(ids[x]);
-            fichero.writeUTF(obtenerStringCompleto(apellidos[x]));
+            fichero.writeChars(obtenerStringCompleto(apellidos[x]));
             fichero.writeInt(departamentos[x]);
             fichero.writeDouble(salario[x]);
         }

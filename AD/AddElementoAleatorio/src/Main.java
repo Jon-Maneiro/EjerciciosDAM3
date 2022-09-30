@@ -33,7 +33,7 @@ public class Main {
 
         //Introducimos los datos
         fich.writeInt(id);
-        fich.writeUTF(apellido);
+        fich.writeChars(apellido);
         fich.writeInt(departamento);
         fich.writeDouble(salario);
 
@@ -67,7 +67,7 @@ public class Main {
         //Si no me equivoco la longitud de cada linea es 28 porque, después de sumar todos
         //los bytes, da 26, pero los ints necesitan un Byte extra para saber si son
         //negativos o positivos.
-        int nuevoId = (int)(( longitud / 28 ) + 1);
+        int nuevoId = (int)(( longitud / 36 ) + 1);
         return nuevoId;
     }
 }

@@ -27,19 +27,23 @@ public class Main {
         //• Departamento, entero de 4 bytes
         //• Salario, doble de 8 bytes
 
+        char[] apellido = new char[10];
         long longitud = fichero.length();
         fichero.seek(0);
         while(fichero.getFilePointer() < longitud){
             System.out.println("============ \n");
-            System.out.println(fichero.getFilePointer());
+
             System.out.println(fichero.readInt() + " ");
-            System.out.println(fichero.getFilePointer());
-            System.out.println(fichero.readUTF() + " ");
-            System.out.println(fichero.getFilePointer());
+            for(int x = 0; x<10; x++){
+                apellido[x] = fichero.readChar();
+            }
+            String s = new String(apellido);
+            System.out.println(s.trim() + " ");
+
             System.out.println(fichero.readInt() + " ");
-            System.out.println(fichero.getFilePointer());
+
             System.out.println(fichero.readDouble() + " ");
-            System.out.println(fichero.getFilePointer());
+
 
         }
 

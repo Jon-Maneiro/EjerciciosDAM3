@@ -30,9 +30,9 @@ public class Main {
         //el elemento a leer
         int elementoALeer = 3;
         //La posicion de lectura es 32*(id-1)?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿;
-        long posicionLectura =28 * (elementoALeer - 1);
+        long posicionLectura =36 * (elementoALeer - 1);
         InputStream is = Channels.newInputStream(fichero.getChannel());
-        byte[] buffer = new byte[20];
+        char[] apellido = new char[10];
 
         //Comprobamos que sea posible la posicion
         if (posicionLectura > longitud) {
@@ -40,15 +40,14 @@ public class Main {
         } else {
             fichero.seek(posicionLectura);
             System.out.println("============");
-            System.out.println("------" + fichero.getFilePointer());
             System.out.println(fichero.readInt() + " ");
-            System.out.println("------" + fichero.getFilePointer());
-            System.out.println(fichero.readUTF());
-            System.out.println("------" + fichero.getFilePointer());
+            for(int x = 0; x<10;x++){
+                apellido[x] = fichero.readChar();
+            }
+            String s = new String(apellido);
+            System.out.println(s.trim());
             System.out.println(fichero.readInt() + " ");
-            System.out.println("------" + fichero.getFilePointer());
             System.out.println(fichero.readDouble() + " ");
-            System.out.println("------" + fichero.getFilePointer());
         }
 
 

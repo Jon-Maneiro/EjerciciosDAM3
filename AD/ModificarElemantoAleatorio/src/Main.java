@@ -21,9 +21,9 @@ public class Main {
 
         System.out.println("Introduce el identificador del empleado");
         int numEmp = Integer.parseInt(sc.nextLine());
-        long posicionInicial = 28 * (numEmp - 1);
-        long posicionSalario = posicionInicial + 4 + 12 + 4;
-        if(numEmp > (longitud/28)+1){
+        long posicionInicial = 36 * (numEmp - 1);
+        long posicionSalario = posicionInicial + 4 + 20 + 4;
+        if(numEmp > (longitud/36)+1){
             System.out.println("El empleado no existe");
         }else{
             System.out.println("Introduce el nuevo salario");
@@ -36,8 +36,12 @@ public class Main {
             System.out.println("============");
 
             System.out.println("ID" + fich.readInt() + " ");
-
-            System.out.println("Apellido" + fich.readUTF());
+            char[] apellido = new char[10];
+            for(int x = 0; x<10; x++){
+                apellido[x] = fich.readChar();
+            }
+            String ap = new String(apellido);
+            System.out.println("Apellido" + ap.trim());
 
             System.out.println("Departamento " + fich.readInt() + " ");
 
