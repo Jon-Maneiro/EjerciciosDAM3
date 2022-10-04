@@ -7,9 +7,16 @@ public class CreadorDeCuerpos extends Thread{
     public void run(){
         while(true){
             try {
-                fabrica.getCajaCuerpos().acquire();
-                System.out.println("Meto un cuerpo...");
-                Thread.sleep(1500);
+                if(fabrica.getCantidadCuerpos() < 8) {
+                    fabrica.getCajaCuerpos().acquire();
+                    fabrica.setCantidadCuerpos(1);
+                    System.out.println("Meto un cuerpo...");
+                    Thread.sleep(1500);
+                }
+                else{
+                    System.out.println("No queda espacio, me voy a por un cafe");
+                    Thread.sleep(1000);
+                }
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
