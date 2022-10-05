@@ -5,22 +5,14 @@ public class Main {
 
         Persona p1 = new Persona(true);
         Persona p2 = new Persona(false);
+        Persona p3 = new Persona(true);
+        Persona p4 = new Persona(false);
 
         p1.start();
         p2.start();
+        p3.start();
+        p4.start();
 
-
-        //Ahorrador ah1 = new Ahorrador();
-        //Ahorrador ah2 = new Ahorrador();
-
-        //Gastador ga1 = new Gastador();
-        //Gastador ga2 = new Gastador();
-
-        //ah1.start();
-        //ah2.start();
-
-        //ga1.start();
-        //ga2.start();
 
 
     }
