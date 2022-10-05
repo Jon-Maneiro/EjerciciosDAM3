@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b04f5768-658b-487a-b8e0-a79e8438a8a6" name="Changes" comment="" />
+    <list default="true" id="ec11a52a-1020-426f-8bca-03eb81b7ee13" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FixlZ22mvzYnfpSjnuMG24LEfK" />
+  <component name="ProjectId" id="2Fj2Bxniiza19qkTM1welqyrXNp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,19 +30,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b04f5768-658b-487a-b8e0-a79e8438a8a6" name="Changes" comment="" />
-      <created>1664988859614</created>
+      <changelist id="ec11a52a-1020-426f-8bca-03eb81b7ee13" name="Changes" comment="" />
+      <created>1664991042302</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664988859614</updated>
-      <workItem from="1664988860845" duration="2760000" />
+      <updated>1664991042302</updated>
+      <workItem from="1664991043473" duration="2063000" />
     </task>
     <servers />
   </component>
