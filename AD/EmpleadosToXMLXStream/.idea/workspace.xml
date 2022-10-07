@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8421a7ed-03f6-4251-b5e7-2f14ad8afe7b" name="Changes" comment="" />
+    <list default="true" id="35f4a968-0ed3-461c-b476-45f9ace36294" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2Flrv20VEQI7hwDO8ZCEoP1sL0F" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FokJ33Q4u41Io9xUkGhML5Fa8M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,19 +30,23 @@
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8421a7ed-03f6-4251-b5e7-2f14ad8afe7b" name="Changes" comment="" />
-      <created>1665077740142</created>
+      <changelist id="35f4a968-0ed3-461c-b476-45f9ace36294" name="Changes" comment="" />
+      <created>1665165751916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665077740142</updated>
-      <workItem from="1665077741372" duration="581000" />
+      <updated>1665165751916</updated>
+      <workItem from="1665165753173" duration="1188000" />
     </task>
     <servers />
   </component>

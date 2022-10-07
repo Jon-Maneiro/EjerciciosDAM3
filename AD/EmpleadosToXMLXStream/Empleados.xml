@@ -1,0 +1,32 @@
+<Empleados>
+  <empleado>
+    <id>1</id>
+    <apellido>Maneiro</apellido>
+    <departamento>10</departamento>
+    <salario>1200.0</salario>
+  </empleado>
+  <empleado>
+    <id>2</id>
+    <apellido>Lopez</apellido>
+    <departamento>20</departamento>
+    <salario>3000.0</salario>
+  </empleado>
+  <empleado>
+    <id>3</id>
+    <apellido>Vehiculo</apellido>
+    <departamento>30</departamento>
+    <salario>4000.0</salario>
+  </empleado>
+  <empleado>
+    <id>4</id>
+    <apellido>Edificio</apellido>
+    <departamento>40</departamento>
+    <salario>2000.0</salario>
+  </empleado>
+  <empleado>
+    <id>5</id>
+    <apellido>Pedro</apellido>
+    <departamento>50</departamento>
+    <salario>500.0</salario>
+  </empleado>
+</Empleados>
