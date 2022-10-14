@@ -17,7 +17,7 @@
 		<Recompensas>
 			<Recompensa>
 				<Nombre></Nombre>
-				<Coste></Coste>
 			</Recompensa>
+			<Oro> </Oro>
 		</Recompensas>
 	</Encuentro>

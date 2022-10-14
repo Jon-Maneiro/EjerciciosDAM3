@@ -19,11 +19,20 @@ del encuentro junto al nivel de los jugadores.
 Organización--------------------
 
 Enemigos.dat
-	Nombre(String 50) Tipo(String 20) CR(long(Los valores menores a1
-tendrán que ir como 0.algo))
+	Nombre(String 50) Tipo(String 11) CR(long(Los valores menores a 1
+tendrán que ir como 0.algo)) XP(int)
 
 Recompensas.dat
-	Nombre(String 50) Tipo(String 20) Coste oro(int)
+	Nombre(String 50) Tipo(String 15) Rareza(int)
+	Rarezas:
+	1-common
+	2-uncommon
+	3-rare
+	4-very rare
+	5-Legendary
+	6-Artifact
+
+
 
 
 

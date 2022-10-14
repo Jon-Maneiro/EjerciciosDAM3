@@ -28,10 +28,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/8FDAM08/Desktop/EjerciciosKEKW/EjerciciosDAM3/AD/PracticaUD1/xmlbeans-2.6.0.jar",
+    "last_opened_file_path": "C:/Users/8FDAM08/Desktop/EjerciciosKEKW/EjerciciosDAM3/AD/PracticaUD1/librerias/xmlbeans-2.6.0.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -46,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665679302979</updated>
       <workItem from="1665679304463" duration="3946000" />
+      <workItem from="1665765235762" duration="10857000" />
     </task>
     <servers />
   </component>
