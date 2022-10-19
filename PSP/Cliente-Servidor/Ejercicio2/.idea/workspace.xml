@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d04811de-7642-41fa-b4ad-f04464f8dd8b" name="Changes" comment="" />
+    <list default="true" id="b2aa2302-4d87-4231-95bd-76b4339cbdb9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,51 +20,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GJw8aLXA0dyDaVeceMpKo0gbqo" />
+  <component name="ProjectId" id="2GMUx7eFz5GlhqLOZDPXEaE7PeB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
-  <component name="RunManager" selected="Application.Cliente">
-    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cliente" />
-      <module name="Ejemplo cliente servidor" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Servidor" />
-      <module name="Ejemplo cliente servidor" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Cliente" />
-        <item itemvalue="Application.Servidor" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d04811de-7642-41fa-b4ad-f04464f8dd8b" name="Changes" comment="" />
-      <created>1666119839487</created>
+      <changelist id="b2aa2302-4d87-4231-95bd-76b4339cbdb9" name="Changes" comment="" />
+      <created>1666198191042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666119839487</updated>
-      <workItem from="1666119840814" duration="2529000" />
-      <workItem from="1666197303681" duration="2215000" />
+      <updated>1666198191042</updated>
+      <workItem from="1666198192336" duration="4748000" />
     </task>
     <servers />
   </component>
