@@ -18,13 +18,9 @@ public class Cliente {
             fSalida = new PrintWriter(peticion.getOutputStream(), true);
             fEntrada = new BufferedReader(new InputStreamReader(peticion.getInputStream()));
 
-            do {
-                sc.nextLine()
-                fSalida.print(sc.nextLine());
+            fSalida.println(sc.nextLine());
 
-                System.out.println("El texto recibido es: " + fEntrada.readLine());
-            }
-
+            System.out.println("El texto recibido es: " + fEntrada.readLine());
             //Math.floor(Math.random() * max);
 
 

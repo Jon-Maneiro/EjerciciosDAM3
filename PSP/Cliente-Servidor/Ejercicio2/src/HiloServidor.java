@@ -21,11 +21,12 @@ public class HiloServidor extends Thread{
         try {
 
             System.out.println("AAAAAAAAAAAAAAAAAAAAAA");
+            //System.out.println(fEntrada.readLine());
             String informacionRecibida = fEntrada.readLine();
             System.out.println("Informacion recibida: " + informacionRecibida);
             informacionRecibida = informacionRecibida.toUpperCase();
 
-            fSalida.print(informacionRecibida);
+            fSalida.println(informacionRecibida);
 
             fEntrada.close();
             fSalida.close();
