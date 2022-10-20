@@ -8,15 +8,17 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 
-public class ListaRecompensas {
+public class ListaRecompensas implements Serializable{
 
     static ArrayList<Recompensa> recompensas = new ArrayList<>();
-
+    static int oroEntregable;
     public ListaRecompensas(boolean llenar) {
         if (llenar) {
             llenarListaRecompensas();
         }
     }
+
+    public ListaRecompensas(){};
 
     public ArrayList<Recompensa> filtrarRareza(int rareza){
         ArrayList<Recompensa> rarezas = new ArrayList<>();
@@ -170,5 +172,23 @@ public class ListaRecompensas {
         return modif;
     }
 
+    public void add(Recompensa recompensa){
+        recompensas.add(recompensa);
+    }
 
+    public static int getOroEntregable() {
+        return oroEntregable;
+    }
+
+    public static void setOroEntregable(int oroEntregable) {
+        ListaRecompensas.oroEntregable = oroEntregable;
+    }
+
+    public static ArrayList<Recompensa> getRecompensas() {
+        return recompensas;
+    }
+
+    public static void setRecompensas(ArrayList<Recompensa> recompensas) {
+        ListaRecompensas.recompensas = recompensas;
+    }
 }

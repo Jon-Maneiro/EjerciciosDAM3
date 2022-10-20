@@ -4,6 +4,8 @@ Calculadora de encuentros de DND
 Lista de enemigos, con sus estadisticas y CR
 Lista de "recompensas" posibles en caso de ser combates importantes
 
+Lista de Personajes un poco merequetengue
+
 Guardado de los encuentros generados en XML
 
 Input de Personajes con su nivel para calcular 
@@ -38,6 +40,17 @@ Recompensas.dat
 
 XML guardado datos-
 Listado>Encuentro><NumeroPJ><NivelPj><>Enemigos>Cantidad><<Recompensa>
+
+
+
+
+
+
+
+
+X + ((Y/2+1) + CPorNivel(Se aplica Retroactivamente))
+
+
 
 
 

@@ -7,6 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="apache.poi.ooxml.schemas" level="project" />
+    <orderEntry type="library" exported="" name="apache.poi" level="project" />
+    <orderEntry type="library" exported="" name="apache.xmlbeans" level="project" />
+    <orderEntry type="library" exported="" name="apache.poi.ooxml" level="project" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
@@ -19,7 +23,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/librerias/poi-3.17.jar!/" />
+          <root url="jar://$MODULE_DIR$/librerias/xstream-1.4.19.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,29 +32,12 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/librerias/poi-ooxml-3.17.jar!/" />
+          <root url="jar://$MODULE_DIR$/librerias/kxml2-2.3.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/librerias/poi-ooxml-schemas-3.17.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/librerias/xmlbeans-2.6.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="thoughtworks.xstream" level="project" />
   </component>
 </module>

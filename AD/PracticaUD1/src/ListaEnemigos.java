@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
 
-public class ListaEnemigos {
+public class ListaEnemigos implements Serializable{
 
     static ArrayList<Enemigo> enemigos = new ArrayList<>();
 
@@ -17,6 +17,8 @@ public class ListaEnemigos {
             llenarListaEnemigos();
         }
     }
+
+    public ListaEnemigos(){}
 
 
     /**
@@ -169,4 +171,15 @@ public class ListaEnemigos {
         return modif;
     }
 
+    public static void add(Enemigo enemigo){
+        enemigos.add(enemigo);
+    }
+
+    public static ArrayList<Enemigo> getEnemigos() {
+        return enemigos;
+    }
+
+    public static void setEnemigos(ArrayList<Enemigo> enemigos) {
+        ListaEnemigos.enemigos = enemigos;
+    }
 }
