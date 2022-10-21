@@ -90,8 +90,34 @@ public class ListaRecompensas implements Serializable{
     /**
      * Posibilidad de insertar una nueva recompensa en recompensas.dat
      */
-    public void insertarNuevaRecompensa() {
+    public void insertarNuevaRecompensa(String nombre, String tipo, int rareza) throws IOException {
+        /**
+         * Id, int de 4 bytes
+         * Nombre, cadena de 50 caracteres , 100 bytes
+         * Tipo, cadena de 15 caracteres , 30 bytes
+         * rareza, int de 8 bytes
+         * Total, 142 bytes
+         */
+        File file = new File("recompensas.dat");
+        RandomAccessFile fichero = new RandomAccessFile(file, "rw");
 
+
+        //Primero hay que sacar el ID correspondiente al monstruo
+        long longitud = fichero.length();
+        fichero.seek(longitud - 142);//Aqui hay una posible zona de bug, checkear
+        int id = fichero.readInt() + 1;//Tenemos el id?¿
+
+
+        fichero.seek(longitud);
+
+        fichero.writeInt(id);
+        fichero.writeChars(nombre);
+        fichero.writeChars(tipo);
+        fichero.writeInt(rareza);
+
+        fichero.close();
+
+        recompensas.add(new Recompensa(id,nombre,tipo,rareza));
     }
 
     private File leerExcel(File archivo) {

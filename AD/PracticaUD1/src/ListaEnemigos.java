@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
 
-public class ListaEnemigos implements Serializable{
+public class ListaEnemigos implements Serializable {
 
     static ArrayList<Enemigo> enemigos = new ArrayList<>();
 
@@ -18,7 +18,8 @@ public class ListaEnemigos implements Serializable{
         }
     }
 
-    public ListaEnemigos(){}
+    public ListaEnemigos() {
+    }
 
 
     /**
@@ -52,21 +53,21 @@ public class ListaEnemigos implements Serializable{
             fichero.seek(0);
             //Leemos el fichero y llenamos el arrayList de enemigos para
             //poder trabajar con el
-            while(fichero.getFilePointer() < longitud){
+            while (fichero.getFilePointer() < longitud) {
 
                 nombre = new char[50];
                 tipo = new char[11];
 
                 id = fichero.readInt();
-                for(int x = 0; x<50; x++){
+                for (int x = 0; x < 50; x++) {
                     nombre[x] = fichero.readChar();
                 }
-                for(int x = 0; x<11; x++){
+                for (int x = 0; x < 11; x++) {
                     tipo[x] = fichero.readChar();
                 }
                 cr = fichero.readLong();
                 xp = fichero.readInt();
-                enemigos.add(new Enemigo(id,new String(nombre), new String(tipo), cr,xp));
+                enemigos.add(new Enemigo(id, new String(nombre), new String(tipo), cr, xp));
             }
 
 
@@ -81,8 +82,36 @@ public class ListaEnemigos implements Serializable{
     /**
      * Posibilidad e insertar un enemigo nuevo en enemigos.dat
      */
-    public void insertarNuevoEnemigo() {
+    public void insertarNuevoEnemigo(String nombre, String tipo, long cr, int xp) throws IOException {
+        /**
+         * Id, int de 4 bytes
+         * Nombre, cadena de 50 caracteres, 100 Bytes
+         * Tipo, cadena de 11 caracteres, 22 bytes
+         * CR, long de 8 bytes
+         * XP, int de 8 bytes
+         * Total, 142 bytes
+         */
+        File file = new File("enemigos.dat");
+        RandomAccessFile fichero = new RandomAccessFile(file, "rw");
 
+
+        //Primero hay que sacar el ID correspondiente al monstruo
+        long longitud = fichero.length();
+        fichero.seek(longitud - 142);//Aqui hay una posible zona de bug, checkear
+        int id = fichero.readInt() + 1;//Tenemos el id?¿
+
+
+        fichero.seek(longitud);
+
+        fichero.writeInt(id);
+        fichero.writeChars(nombre);
+        fichero.writeChars(tipo);
+        fichero.writeLong(cr);
+        fichero.writeInt(xp);
+
+        fichero.close();
+
+        enemigos.add(new Enemigo(id, nombre, tipo, cr,xp));
     }
 
     private File leerExcel(File archivo) {
@@ -151,7 +180,7 @@ public class ListaEnemigos implements Serializable{
             throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             System.out.println("A");
         }
@@ -171,7 +200,7 @@ public class ListaEnemigos implements Serializable{
         return modif;
     }
 
-    public static void add(Enemigo enemigo){
+    public static void add(Enemigo enemigo) {
         enemigos.add(enemigo);
     }
 
