@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb10b2a4-fa30-4ca5-92f4-7ee577355069" name="Changes" comment="" />
+    <list default="true" id="c84dc7cf-453b-423f-802f-ccb4063cc1ec" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GMmoBeaYTxucUUZksFPtkhhJUW" />
+  <component name="ProjectId" id="2GdkoVM7vUV7IMO5TOJrXRs6raW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,20 +35,47 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/8FDAM08/Desktop/EjerciciosKEKW/EjerciciosDAM3/PSP/Cliente-Servidor/Ejercicio4",
-    "settings.editor.selected.configurable": "Runtime.Targets.Configurable"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "testing.instrumented.configuration"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Servidor">
+    <configuration name="Cliente" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="Cliente" />
+      <module name="Ejercicio4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Servidor" />
+      <module name="Ejercicio4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Cliente" />
+      <item itemvalue="Application.Servidor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Servidor" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cb10b2a4-fa30-4ca5-92f4-7ee577355069" name="Changes" comment="" />
-      <created>1666207001320</created>
+      <changelist id="c84dc7cf-453b-423f-802f-ccb4063cc1ec" name="Changes" comment="" />
+      <created>1666726024737</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666207001320</updated>
-      <workItem from="1666207002486" duration="1069000" />
-      <workItem from="1666723110413" duration="2929000" />
-      <workItem from="1666726346325" duration="683000" />
+      <updated>1666726024737</updated>
+      <workItem from="1666726025933" duration="308000" />
+      <workItem from="1666726434264" duration="1159000" />
     </task>
     <servers />
   </component>

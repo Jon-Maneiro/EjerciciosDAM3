@@ -3,6 +3,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Servidor {
     public static void main(String[] args) throws IOException {
@@ -23,7 +24,7 @@ public class Servidor {
             System.out.println("Puerto " + recibido.getPort());
             System.out.println("Respondiendo");
 
-            String message = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new java.util.Date());
+            String message = new String("LA HORA DEL DIA" + new Date());
             msg = message.getBytes();
 
             DatagramPacket paquete = new DatagramPacket(
