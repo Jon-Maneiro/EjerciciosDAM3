@@ -29,18 +29,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/8FDAM08/Desktop/EjerciciosKEKW/EjerciciosDAM3/PSP/Cliente-Servidor/Ejercicio4",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "testing.instrumented.configuration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/8FDAM08/Desktop/EjerciciosKEKW/EjerciciosDAM3/PSP/Cliente-Servidor/Ejercicio4&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;testing.instrumented.configuration&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Servidor">
     <configuration name="Cliente" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="Cliente" />
@@ -75,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666726024737</updated>
       <workItem from="1666726025933" duration="308000" />
-      <workItem from="1666726434264" duration="1159000" />
+      <workItem from="1666726434264" duration="1213000" />
+      <workItem from="1666801957155" duration="1657000" />
     </task>
     <servers />
   </component>
