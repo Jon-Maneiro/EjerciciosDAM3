@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.company.DepartamentosEntity" table="departamentos" schema="empleados">
+        <id name="numdep">
+            <column name="numdep" sql-type="int"/>
+        </id>
+        <property name="nomdep">
+            <column name="nomdep" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="loc">
+            <column name="loc" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
