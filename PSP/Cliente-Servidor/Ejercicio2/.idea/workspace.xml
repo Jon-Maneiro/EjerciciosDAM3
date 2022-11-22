@@ -26,13 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/9FDAM08/Desktop/Ejercicios/EjerciciosDAM3/PSP/Cliente-Servidor/Ejercicio2"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Cliente">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cliente" />
@@ -67,6 +68,7 @@
       <workItem from="1666283689922" duration="55000" />
       <workItem from="1666803183718" duration="21000" />
       <workItem from="1666806441843" duration="1231000" />
+      <workItem from="1669146123695" duration="910000" />
     </task>
     <servers />
   </component>
